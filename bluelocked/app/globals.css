@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+@utility clip-bluelock-card {
+  /* Cuts off the top-right and bottom-left corners sharply */
+  clip-path: polygon(
+    0% 0%, 
+    80% 0%, 
+    100% 20%, 
+    100% 100%, 
+    20% 100%, 
+    0% 80%
+  );
+}
+
+@font-face {
+  font-family: 'CustomFontCondexa';
+  src: url('./assets/fonts/Condexa-Medium-Exfont9186.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@theme {
+  /* This completely reassigns Tailwind's default 'font-sans' utility class to your custom font */
+  --font-condexa: 'CustomFontCondexa', sans-serif;
+}
