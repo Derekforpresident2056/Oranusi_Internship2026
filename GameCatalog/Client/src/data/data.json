@@ -1,0 +1,44 @@
+[
+  {
+    "id": "1",
+    "title": "007: First Light",
+    "image": "/images/DS3.png",
+    "link": "/catalog/007-first-light",
+    "tags": ["new-release", "playstation-5"]
+  },
+  {
+    "id": "2",
+    "title": "Directive 8020",
+    "image": "/images/DS3.png",
+    "link": "/catalog/directive-8020",
+    "tags": ["new-release", "xbox"]
+  },
+  {
+    "id": "3",
+    "title": "UFC 6",
+    "image": "/images/DS3.png",
+    "link": "/catalog/ufc-6",
+    "tags": ["new-release", "playstation-5"]
+  },
+  {
+    "id": "4",
+    "title": "Pragmata",
+    "image": "/images/DS3.png",
+    "link": "/catalog/pragmata",
+    "tags": ["new-release", "next-gen"]
+  },
+  {
+    "id": "4",
+    "title": "Pragmata",
+    "image": "/images/DS3.png",
+    "link": "/catalog/pragmata",
+    "tags": ["new-release", "next-gen"]
+  },
+  {
+    "id": "4",
+    "title": "Pragmata",
+    "image": "/images/DS3.png",
+    "link": "/catalog/pragmata",
+    "tags": ["new-release", "next-gen"]
+  }
+]

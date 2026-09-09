@@ -1,0 +1,39 @@
+@import "tailwindcss";
+
+@layer utilities {
+  @keyframes runner {
+    to {
+      transform: translateX(10%);
+    }
+  }
+}
+
+@layer utilities {
+  @keyframes revrunner {
+    to {
+      transform: translateX(-10%);
+    }
+  }
+}
+
+@layer utilities {
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  .no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+}
+
+@font-face {
+  font-family: 'CustomFontCondexa';
+  src: url('./assets/fonts/Condexa-Medium-Exfont9186.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@theme {
+  /* This completely reassigns Tailwind's default 'font-sans' utility class to your custom font */
+  --font-condexa: 'CustomFontCondexa', sans-serif;
+}
